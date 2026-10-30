@@ -44,14 +44,12 @@ def train():
     print(f"\nTest top-1 accuracy: {metrics.top1:.3f}")
     print("Confusion matrix saved in:", RUNS / "foam_rh_lh")
 
-
 def predict(image_path: str):
     model = YOLO(str(BEST))
     result = model(image_path, device="mps")[0]
     label = result.names[result.probs.top1]
     conf = float(result.probs.top1conf)
     print(f"{Path(image_path).name}: {label} ({conf:.1%} confidence)")
-
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "predict" and len(sys.argv) == 3:

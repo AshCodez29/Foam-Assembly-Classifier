@@ -1,0 +1,28 @@
+26 epochs completed in 0.007 hours.
+Optimizer stripped from /Users/Ashanipatil/Projects/EDI SEM 3/runs/foam_rh_lh/weights/last.pt, 3.0MB
+Optimizer stripped from /Users/Ashanipatil/Projects/EDI SEM 3/runs/foam_rh_lh/weights/best.pt, 3.0MB
+
+Validating /Users/Ashanipatil/Projects/EDI SEM 3/runs/foam_rh_lh/weights/best.pt...
+Ultralytics 8.4.192 🚀 Python-3.14.7 torch-2.15.0 MPS (Apple M4 Pro)
+YOLOv8n-cls summary (fused): 30 layers, 1,437,442 parameters, 0 gradients, 3.3 GFLOPs
+train: /Users/Ashanipatil/Projects/EDI SEM 3/dataset/train... found 54 images in 2 classes ✅ 
+val: /Users/Ashanipatil/Projects/EDI SEM 3/dataset/val... found 12 images in 2 classes ✅ 
+test: /Users/Ashanipatil/Projects/EDI SEM 3/dataset/test... found 12 images in 2 classes ✅ 
+               classes   top1_acc   top5_acc: 100% ━━━━━━━━━━━━ 1/1 12.4it/s 0.1s
+                   all      0.917          1
+Speed: 0.1ms preprocess, 2.5ms inference, 0.0ms loss, 0.0ms postprocess per image
+Results saved to /Users/Ashanipatil/Projects/EDI SEM 3/runs/foam_rh_lh
+Ultralytics 8.4.192 🚀 Python-3.14.7 torch-2.15.0 MPS (Apple M4 Pro)
+YOLOv8n-cls summary (fused): 30 layers, 1,437,442 parameters, 0 gradients, 3.3 GFLOPs
+train: /Users/Ashanipatil/Projects/EDI SEM 3/dataset/train... found 54 images in 2 classes ✅ 
+val: /Users/Ashanipatil/Projects/EDI SEM 3/dataset/val... found 12 images in 2 classes ✅ 
+test: /Users/Ashanipatil/Projects/EDI SEM 3/dataset/test... found 12 images in 2 classes ✅ 
+test: Fast image access ✅ (ping: 0.0±0.0 ms, read: 3861.8±2209.7 MB/s, size: 91.7 KB)
+test: Scanning /Users/Ashanipatil/Projects/EDI SEM 3/dataset/test... 12 images, 0 corrupt: 100% ━━━━━━━━━━━━ 12/12 12.6Mit/s 0.0s
+               classes   top1_acc   top5_acc: 100% ━━━━━━━━━━━━ 1/1 13.7it/s 0.1s
+                   all      0.917          1
+Speed: 0.1ms preprocess, 2.1ms inference, 0.0ms loss, 0.0ms postprocess per image
+Results saved to /Users/Ashanipatil/Projects/EDI SEM 3/runs/classify/val-2
+
+Test top-1 accuracy: 0.917
+Confusion matrix saved in: /Users/Ashanipatil/Projects/EDI SEM 3/runs/foam_rh_lh
